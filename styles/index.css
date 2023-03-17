@@ -80,6 +80,7 @@ main {
   max-width: 1200pxs;
   margin-top: 40px;
   padding-top: 80px;
+  padding-bottom: 40px;
 }
 .adress-box {
   display: flex;
@@ -97,4 +98,14 @@ main {
   list-style: none;
   line-height: 60px;
   font-size: 20px;
+}
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+.copyright h5 {
+  text-align: left;
+  margin: 50px 0px 20px 20px;
 }
