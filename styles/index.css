@@ -48,8 +48,53 @@ a {
 .intro h2,
 .intro h4 {
   position: relative;
-  top: 350px;
+  top: 300px;
   box-sizing: border-box;
   background-color: black;
   padding: 10px;
+}
+main {
+  margin-top: 90px;
+}
+.tea-selection h5 {
+  margin: 15px;
+  word-spacing: 3px;
+}
+.tea-types img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.tea-types {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin-bottom: 70px;
+}
+.adress {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1kj94s7*_ga*MzA1MDAxNTkxLjE2NjcxNzg3NTE.*_ga_3LRZM6TM9L*MTY3OTAwMjIwMS4xMTEuMC4xNjc5MDAyMjAxLjYwLjAuMA..");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  max-width: 1200pxs;
+  margin-top: 40px;
+  padding-top: 80px;
+}
+.adress-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.adress-list {
+  background-color: black;
+  width: 300px;
+  height: auto;
+  padding: 20px;
+  margin: 15px 40px;
+}
+.adress-list li {
+  list-style: none;
+  line-height: 60px;
+  font-size: 20px;
 }
